@@ -32,3 +32,20 @@ $sorwar='bariani khai';
 $name = "sorwar";
 echo $$name
 ?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+    $name='sorwar';
+    $sallary=10000;
+    ?>
+    <h1>Hello I am <?php echo $name?>, My sallary <?php echo $sallary?></h1>
+</body>
+</html>
